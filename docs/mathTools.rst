@@ -145,7 +145,10 @@ The interpolation class defines the __call__ method. The usage of an interpolati
 
 .. code-block:: python
 
+    import QuantLib as ql
+    import numpy as np
     import pandas as pd
+
     X = [1., 2., 3., 4., 5.]
     Y = [0.6, 0.7, 0.8, 0.9]
     Z = [[(x-3)**2 + y for x in X] for y in Y]
